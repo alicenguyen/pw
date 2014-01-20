@@ -1,0 +1,23 @@
+body{ 
+    padding-top: 70px;
+}
+
+.menubar {
+    margin-left:inherit;
+    width:100%;
+}
+
+.navbar-default{
+    border-color: #D5C0B6;
+}
+
+.imgBox {
+    width:245px;
+    height:194px;
+    opacity:0.4;
+}
+
+.welcomeImg {
+    background-image:url('../images/home.jpg');
+
+}
