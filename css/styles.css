@@ -2,9 +2,18 @@ body{
     padding-top: 70px;
 }
 
+main {
+    max-width:875px;
+    margin: 0 auto;
+    margin-top:15px;
+}
 .menubar {
-    margin-left:inherit;
-    width:100%;
+    margin:0 auto;
+    width:915px;
+}
+
+.menu-items {
+    width:315px;
 }
 
 .navbar-default{
@@ -12,12 +21,36 @@ body{
 }
 
 .imgBox {
-    width:245px;
+    width:275px;
     height:194px;
     opacity:0.4;
 }
-
-.welcomeImg {
-    background-image:url('../images/home.jpg');
+.container.imgBoxes {
+    width:inherit;
+    margin-top:25px;
 
 }
+.container.imgBoxes.row {
+}
+
+.jumbotron.welcomeImg {
+    background:url('../images/home.jpg') no-repeat center;
+    max-height:315px;
+    max-width:958px;
+    position:center;
+    height:315px;
+}
+
+.container.cat {
+    height: 250px;
+    float:left;
+}
+.cat-1 {
+    width:150px; 
+    transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg); /* IE 9 */
+    -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+
+
+
