@@ -45,19 +45,19 @@ a:hover, a:active {
     padding-bottom:16px;
 }
 .accordion-group.about {
-    background-color:#f2cfc0;
+    background-color:#EB7543;
 }
 
 .accordion-group.projects {
-    background-color:#f2ddc0;
+    background-color:#EBA443;
 }
 
 .accordion-group.artworks {
-    background-color:#b4c5d2;
+    background-color:#336A98;
 
 }
 .accordion-group.contact {
-    background-color:#b3d5c8;
+    background-color:#2EA072;
 
 }
 
@@ -67,7 +67,7 @@ a:hover, a:active {
 }
 
 .accordion-inner {
-    padding:24px 0px 12px 48px;
+    padding:24px 12px 12px 48px;
 }
 
 
