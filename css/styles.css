@@ -3,7 +3,7 @@ body{
 }
 
 main {
-    max-width:875px;
+    width:875px;
     margin: 0 auto;
     margin-top:15px;
 }
@@ -20,36 +20,54 @@ main {
     border-color: #D5C0B6;
 }
 
-.imgBox {
-    width:275px;
-    height:194px;
-    opacity:0.4;
-}
-.container.imgBoxes {
-    width:inherit;
-    margin-top:25px;
-
-}
-.container.imgBoxes.row {
-}
 
 .jumbotron.welcomeImg {
-    background:url('../images/home.jpg') no-repeat center;
-    max-height:315px;
-    max-width:958px;
-    position:center;
-    height:315px;
+    background:url('../images/dummy2.png') no-repeat center;
+    background-size:875px 315px;
+
+}
+.container.welcomeText {
+    color:#f4f4f4;
 }
 
-.container.cat {
-    height: 250px;
-    float:left;
+.accordion-toggle {
+    font-size:30px;
+    color:#f4f4f4;
+    margin-left:8px;
 }
-.cat-1 {
-    width:150px; 
-    transform:rotate(-90deg);
-    -ms-transform:rotate(-90deg); /* IE 9 */
-    -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+
+a:hover, a:active {
+    color:#4d4d4d;
+    text-decoration:none;
+}
+
+.accordion-group {
+    padding-bottom:16px;
+}
+.accordion-group.about {
+    background-color:#f2cfc0;
+}
+
+.accordion-group.projects {
+    background-color:#f2ddc0;
+}
+
+.accordion-group.artworks {
+    background-color:#b4c5d2;
+
+}
+.accordion-group.contact {
+    background-color:#b3d5c8;
+
+}
+
+.accordion-heading {
+    height:48px;
+
+}
+
+.accordion-inner {
+    padding:24px 0px 12px 48px;
 }
 
 

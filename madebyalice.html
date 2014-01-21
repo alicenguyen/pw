@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <title>madebyalice</title>
 
-        <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap.theme.css" rel="stylesheet">
-        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!--<link href="css/bootstrap.theme.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
 
-        <script src="script.js"></script>
+        <!--      <script src="script.js"></script>-->
+                <link href="css/styles.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -45,29 +46,156 @@
 
         <main>
 
+
             <div class="jumbotron welcomeImg">
-                <!--<div class="container welcomeText" >
+                <div class="container welcomeText" >
                     <h1>alice nguyen</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-                </div>-->
-            </div>
-            <div class="page-header">
-                <div class="container cat">
-                    <div class="cat-1"><h1 style="color:#268BD2">about</h1></div>
-                    <div class="cat-2"></div>
-
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                        pretium quis, sem. Nulla consequat massa quis enim.</p>
                 </div>
-            
-                    </main>
+            </div> 
 
-                    <!--<footer>
-                        <p>Copyright &copy; 2014</p>
-                    </footer>-->
+            <!--  <div class="container sections">
+                <div class="row sections ">
+                    <div class="col-lg-9 section about" style="background-color:#a5bab8;">
+                        <p>about</p>
+                    </div>
 
-                    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-                    <script src="https://code.jquery.com/jquery.js"></script>
-                    <!-- Include all compiled plugins (below), or include individual files as needed -->
-                    <script src="js/bootstrap.min.js"></script>
+                    <div class="col-lg-9 section projects" style="background-color:#a5bab8;">
+                        <p>about</p>
+                    </div>
+                    <div class="col-lg-9 section" style="background-color:#a5bab8;">
+                        <p>about</p>
+                    </div>
+                    <div class="col-lg-9 section" style="background-color:#a5bab8;">
+                        <p>about</p>
+                    </div>
+                    <div class="col-lg-9 section" style="background-color:#a5bab8;">
+                        <p>about</p>
+                    </div>
+                </div> 
+            </div> -->
 
-                </body>
-            </html>
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group about">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                           about 
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse in">
+                        <div class="accordion-inner">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group projects">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            projects
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group artworks">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            artworks
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group contact">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            contact
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            Anim pariatur cliche...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--
+
+
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseOne">about</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseTwo">projects</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body"> </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseThree">artworks</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body"> </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseThree">contact</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body"> </div>
+                    </div>
+                </div>
+
+            </div>-->
+        </main>
+
+        <!--<footer>
+            <p>Copyright &copy; 2014</p>
+        </footer>-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+    </body>
+</html>
