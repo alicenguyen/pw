@@ -32,7 +32,7 @@ main {
 
 .accordion-toggle {
     font-size:30px;
-    color:#f4f4f4;
+     color:#4d4d4d;
     margin-left:8px;
 }
 
@@ -44,27 +44,39 @@ a:hover, a:active {
 .accordion-group {
     padding-bottom:16px;
 }
-.accordion-group.about {
-    background-color:#EB7543;
+.accordion-group {
+    padding-bottom:16px;
 }
-
-.accordion-group.projects {
-    background-color:#EBA443;
-}
-
-.accordion-group.artworks {
-    background-color:#336A98;
-
-}
-.accordion-group.contact {
-    background-color:#2EA072;
+.accordion-toggle.about{
+    color:#4d4d4d;
 
 }
 
+.accordion-toggle.projects {
+    color:#4d4d4d;
+
+}
+
+.accordion-toggle.artworks {
+    color:#4d4d4d;
+
+
+}
+.accordion-toggle.contact {
+    color:#4d4d4d;
+
+
+}
+
+.accordion-heading.a {
+    color:#4d4d4d;
+}
 .accordion-heading {
     height:48px;
 
 }
+
+
 
 .accordion-inner {
     padding:24px 12px 12px 48px;
