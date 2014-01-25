@@ -1,9 +1,14 @@
 header {
     border-style:dotted;
     border-width:1px;
-    width:250px;
-    position:fixed;
-    float:left;
+    height:90px;
+    width:auto;
+    padding-top:20px;
+    padding-left:40px;
+}
+
+.title {
+    padding:15px;
 }
 
 main {
