@@ -1,0 +1,22 @@
+header {
+    border-style:dotted;
+    border-width:1px;
+    width:250px;
+    position:fixed;
+    float:left;
+}
+
+main {
+    border-style:dotted;
+    border-width:1px;
+    width:500px;
+    float:right;
+
+}
+
+.wrapper {
+    width:860px;
+   /* margin:0 auto; */
+    border-style:dotted;
+    border-width:1px;
+}

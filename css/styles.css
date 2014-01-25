@@ -1,11 +1,13 @@
 body{ 
     padding-top: 70px;
+   
 }
 
 main {
     width:875px;
     margin: 0 auto;
     margin-top:15px;
+     background-color:#cccccc;
 }
 .menubar {
     margin:0 auto;
@@ -16,19 +18,10 @@ main {
     width:315px;
 }
 
-.navbar-default{
+.navbar{
     border-color: #D5C0B6;
 }
 
-
-.jumbotron.welcomeImg {
-    background:url('../images/dummy2.png') no-repeat center;
-    background-size:875px 315px;
-
-}
-.container.welcomeText {
-    color:#f4f4f4;
-}
 
 .accordion-toggle {
     font-size:30px;
