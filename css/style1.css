@@ -1,27 +1,68 @@
-header {
-    border-style:dotted;
-    border-width:1px;
-    height:90px;
-    width:auto;
-    padding-top:20px;
-    padding-left:40px;
+@font-face {
+    font-family: 'Swiss721';
+    src: url('../fonts/swiss721.ttf');
 }
 
-.title {
-    padding:15px;
+header{
+    /*border-style:dotted;
+    border-width:1px;*/
+    margin:0 auto;
+    padding-top:36px;
+    padding-left:18px;
+    font-family: 'Swiss721', Arial;
+    float:left;
+    background-color:#ffffff;
 }
+
+.header-title {
+    padding-top:18px;
+    padding-bottom:12px;
+    margin:0 auto;
+}
+
+.header-title a{
+    color: #4d4d4d;
+    font-size:18pt;
+
+}
+
+.menu-items {
+    padding-left:1px;
+    float:left;
+    margin: 0 auto;
+    
+}
+a.item{
+    color: #595959;
+}
+
+a.item:hover, a.item:focus {
+ color: #4a8097;
+ text-decoration:none;
+}
+
+
 
 main {
-    border-style:dotted;
-    border-width:1px;
+    /*border-style:dotted;
+    border-width:1px;*/
     width:500px;
     float:right;
-
+     font-family: 'Swiss721', Arial;
 }
 
 .wrapper {
     width:860px;
-   /* margin:0 auto; */
-    border-style:dotted;
-    border-width:1px;
+    /* margin:0 auto; */
+    /* border-style:dotted;
+    border-width:1px;*/
+}
+
+.sub-item {
+    display:none;
+    position:relative;
+}
+
+#mainAbout {
+margin-top:100px;
 }
